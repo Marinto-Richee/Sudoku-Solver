@@ -27,9 +27,17 @@ Name: Marinto Richee J
 Reg. No: 212220230031
 */
 ```
+```python
+def cross(x,y):
+    return[s+b for s in x for b in y]
+    
+rows="ABCDEFGHI"
+columns="123456789"
+boxes=cross(rows,columns)
 
+```
 ## Output:
-![image](https://user-images.githubusercontent.com/65499285/172172856-c403b65d-2d3c-4e1c-9f9d-35e15da0a945.png)
+![image](https://user-images.githubusercontent.com/65499285/172666345-c07447c6-7c4e-4db1-8f3e-4cba96d4b750.png)
 
 ## Result:
 Hence a python program has been developed to solve a given sudoku puzzle.
