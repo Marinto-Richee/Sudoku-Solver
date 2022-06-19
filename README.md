@@ -21,6 +21,12 @@ We reduce the puzzle using the two strategies.
 Search function is defined to find the final solution to a given sudoku puzzle.
 
 ## PROGRAM
+```
+/*
+Name: Marinto Richee J
+Reg. No: 212220230031
+*/
+```
 ```python
 def cross(x,y):
     return[s+b for s in x for b in y]
